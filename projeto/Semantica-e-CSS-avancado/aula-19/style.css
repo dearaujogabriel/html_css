@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: green;
+    transition: all 0.150s linear;
+}
+
+.exemplo:hover {
+    width: 500px;
+    background-color: lightgreen;
+}
+
+a {
+    color: blue;
+    font-size: 20px;
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    color: green;
+}

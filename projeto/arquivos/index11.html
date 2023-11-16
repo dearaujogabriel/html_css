@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Teste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form method="get" action="login.html" enctype="multipart/form-data">
+
+        <input type="hidden" name="country" value="BR">
+
+        <fieldset>
+            <legend>
+                Dados pessoais
+            </legend>
+            <label>
+                Nome
+                <br>
+                <input type="text" name="name" required minlength="4" maxlength="20">
+                <br>
+            </label>
+        
+            <label>
+                Sobrenome
+                <br>
+                <input type="text" name="lastname" required minlength="4" maxlength="20">
+                <br>
+            </label>
+
+            <label>
+                E-mail
+                <br>
+                <input type="email" name="email" required>
+                <br>
+            </label>
+
+            <label>
+                Data de nascimento
+                <br>
+                <input type="date" name="birthdate" required>
+                <br>
+            </label>
+
+            <label>
+                Foto
+                <br>
+                <input type="file" name="photo" required accept="image/*">
+                <br>
+            </label>
+            
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>
+                Dados profissionais
+            </legend>
+            <label>
+                Companhia
+                <br>
+                <input type="text" name="company" required maxlength="20">
+                <br>
+            </label>
+        
+            <label>
+                Cargo na empresa
+                <br>
+                <input type="text" name="jobtitle" required maxlength="20">
+                <br>
+            </label>
+        </fieldset>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+
+</html>

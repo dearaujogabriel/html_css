@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 160px;
+    height: 150px;
+    background-color: #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

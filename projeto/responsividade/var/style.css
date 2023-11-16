@@ -1,0 +1,26 @@
+:root {
+    --bg-color: white;
+    --bg-second: #CCC;
+    --font-color: green;
+    --font-size: 25px
+}
+
+body {
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+
+h1 {
+    color: var(--font-color, blue);
+}
+
+.container {
+    background-color: var(--bg-second);
+
+}
+
+@media (max-width: 400px) {
+    :root {
+        --font-size: 12px;
+    }
+}

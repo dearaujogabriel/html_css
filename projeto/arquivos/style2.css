@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Orbitron', 'Alkatra', 'Pixelify Sans', sans-serif;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+table {
+    width: 600px;
+}
+
+table thead {
+    background-color: lightgreen;
+}
+
+table tbody {
+    background-color: aquamarine;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+ tbody td:hover {
+    background-color: rgb(163, 189, 112);
+}
+
+tbody td {
+    border-bottom: 1px solid #CCC;
+}
+
+tbody tr:nth-child(even) {
+    background-color: aqua;
+}

@@ -1,0 +1,85 @@
+/*
+#titulo {
+    color: blue;
+}
+
+#subtitulo {
+    color: green;
+}
+
+.botao {
+    color: violet;
+    background-color: black;
+
+}
+
+img {
+    width: 150px;
+}
+
+a {
+    font-size: 30px;
+}
+
+
+#titulo,
+.botao,
+h2,
+a, li {
+    color: green;
+    font-size: 20px;
+}
+
+.botao {
+    font-weight: bold;
+}
+
+img {
+    width: 100px;
+}
+
+/* 
+   ## um item dentro de outro
+
+
+ol li {
+    color: blueviolet;
+}
+
+*/
+
+h1 {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    
+}
+
+.botao {
+    background-color: #ff0000;
+    color: #0f0;
+}
+p {
+    border: 2px solid red;
+    background-color: lightblue;
+    border-radius: 5px;
+    /*
+        solid, dotted, dashed, groove, inset, outset, double
+
+        as tres primeiras sao as mais usadas
+    */
+}
+
+div {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid darkgreen;
+
+}
+
+img {
+    border-radius: 30px;
+    border: 5px solid lightgray;
+    overflow: hidden;
+}
