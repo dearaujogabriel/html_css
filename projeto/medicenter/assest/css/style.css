@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -34,7 +35,7 @@ nav li {
 
 nav ul {
     display: flex;
-    
+
 }
 
 nav a {
@@ -43,7 +44,6 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a:hover,
@@ -57,4 +57,159 @@ nav .active a {
     background-position: center;
     background-size: cover;
     height: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 0 #555;
+    max-width: 350px;
+}
+
+.banner_headline h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 22px;
+    text-shadow: 0px 1px 0 #555;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+
+.banner_options {
+    height: 210px;
+    display: flex;
+    color: white;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    padding: 30px;
+}
+
+.banner1 {
+    background-color: #39aae1;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.banner_title {
+    font-size: 21px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.hours {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #2b4c99;
+    margin-top: 10px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxes .departments,
+.boxes .departments_bottom {
+    background-color: #0079c7;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.boxes .departments_bottom {
+    margin-bottom: 0;
+}
+
+.widget_body .widget_contact,
+.widget_body .widget_contact_bottom {
+    padding: 10px;
+    border-top: 1px solid #888;
+}
+
+.widget_body .widget_contact_bottom {
+    border-bottom: 1px solid #888;
+}
+
+.widget_body i {
+    margin-right: 5px;
+}
+
+.widget_body a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
