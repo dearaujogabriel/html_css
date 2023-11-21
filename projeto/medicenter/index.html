@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menu_mobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none'
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex'
+                }
+            })
+        }
+    </script>
     <title>Medicenter</title>
 </head>
 
@@ -19,6 +30,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="">home</a></li>
                         <li><a href="">blog</a></li>
@@ -215,13 +231,19 @@
         <div class="container flex_Column">
             <div class="footer_menu">
                 <div class="fm_1">
-                    <h1>Health Insurance</h1>
+                    <a href="">
+                        <h1>Health Insurance</h1>
+                    </a>
                 </div>
                 <div class="fm_2">
-                    <h1>Medical Records</h1>
+                    <a href="">
+                        <h1>Medical Records</h1>
+                    </a>
                 </div>
                 <div class="fm_3">
-                    <h1>Online Bill Pay</h1>
+                    <a href="">
+                        <h1>Online Bill Pay</h1>
+                    </a>
                 </div>
             </div>
 
@@ -273,19 +295,22 @@
                         <div class="footer_widget_body">
                             <div class="footer_posts">
                                 <span>
-                                    <strong>&#x2192; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum neque eligendi.</strong>
+                                    <strong>&#x2192; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+                                        neque eligendi.</strong>
                                 </span>
                                 <h2>6 years ago</h2>
                             </div>
                             <div class="footer_posts">
                                 <span>
-                                    <strong>&#x2192; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum neque eligendi.</strong>
+                                    <strong>&#x2192; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+                                        neque eligendi.</strong>
                                 </span>
                                 <h2>6 years ago</h2>
                             </div>
                             <div class="footer_posts">
                                 <span>
-                                    <strong>&#x2192; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum neque eligendi.</strong>
+                                    <strong>&#x2192; Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+                                        neque eligendi.</strong>
                                 </span>
                                 <h2>6 years ago</h2>
                             </div>
@@ -300,7 +325,33 @@
                         </div>
 
                         <div class="footer_widget_body">
-                            ...
+                            <div class="footer_tweets">
+                                <span>
+                                    <strong>&#x2192; Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                        minus excepturi veritatis quo porro alias eligendi unde laborum accusamus
+                                        repellat sint rem ratione quos, atque possimus voluptate blanditiis eaque
+                                        accusantium!</strong>
+                                </span>
+                                <h2>4 days ago</h2>
+                            </div>
+                            <div class="footer_tweets">
+                                <span>
+                                    <strong>&#x2192; Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                        minus excepturi veritatis quo porro alias eligendi unde laborum accusamus
+                                        repellat sint rem ratione quos, atque possimus voluptate blanditiis eaque
+                                        accusantium!</strong>
+                                </span>
+                                <h2>6 days ago</h2>
+                            </div>
+                            <div class="footer_tweets">
+                                <span>
+                                    <strong>&#x2192; Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                        minus excepturi veritatis quo porro alias eligendi unde laborum accusamus
+                                        repellat sint rem ratione quos, atque possimus voluptate blanditiis eaque
+                                        accusantium!</strong>
+                                </span>
+                                <h2>7 days ago</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
